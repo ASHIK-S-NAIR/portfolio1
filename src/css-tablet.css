@@ -44,6 +44,7 @@ button{
     /* outline: none; */
     /* border: none; */
     font-size: 0.613rem;
+    font-size: clamp(0.5rem, 1vw, 0.613rem);
     /* font-family: var(--secondary-font); */
     /* letter-spacing: 0.1rem; */
     /* font-weight: 800; */
@@ -166,6 +167,101 @@ button{
 }
 
 /* hero section ends */
+
+
+/* problem section starts */
+
+.problem-section{
+    padding: 4em 0;
+}
+
+.problem-wrap{
+    /* display: grid; */
+    /* grid-template-columns: 58% 42%; */
+    /* border: 1px solid red; */
+}
+
+.problem-info-section{
+    /* border: 1px solid green; */
+}
+
+.problem-info-heading{
+    /* width: 90%; */
+    /* font-family: var(--primary-font); */
+    /* font-size: 2.813rem; */
+    font-size: clamp(1rem, 3vw, 1.724rem);
+    /* font-size: 1.563rem; */
+    /* color: var(--main-color); */
+    line-height: clamp( 1.8rem, 5vw, 2.606rem);
+    margin-bottom: 0.8em;
+}
+
+/* .problem-info-heading span{
+    font-style: italic;
+} */
+
+.problem-info-subsection{
+
+}
+
+.problem-info-quotes{
+    /* font-family: var(--secondary-font); */
+    font-size: clamp(0.8rem, 2.5vw, 0.959rem);
+    line-height: clamp(1rem, 2.5vw, 1.344rem);
+    /* font-weight: 400; */
+    /* margin-bottom: 0.3em; */
+}
+
+.problem-info-author{
+    /* font-family: var(--secondary-font); */
+    font-size: clamp(0.5rem, 0.5rem + 0.5vw, 0.768rem);
+    /* font-weight: 700; */
+}
+
+.problem-details-section{
+    /* border: 1px solid blue; */
+}
+
+.problem-details-p{
+    /* font-family: var(--secondary-font); */
+    font-size: clamp(0.5rem, 1.55vw, 0.614rem);
+    line-height: clamp(1rem, 2vw, 1.225rem);
+    /* font-weight: 600; */
+    margin-bottom: 1em;
+}
+
+.problem-details-p.ul{
+    /* margin-bottom: 0.2em; */
+}
+
+.problem-details-ul{
+    margin-bottom: 0.8em;
+}
+
+.problem-details-p span{
+    /* font-weight: 800; */
+}
+
+.problem-details-li{
+    line-height: clamp(1.3rem, 1.5vw, 2rem);
+    /* font-family: var(--secondary-font); */
+    font-size: clamp(0.5rem, 1.55vw, 0.614rem);
+    /* font-weight: 600; */
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.problem-details-li img{
+    /* margin-right: 1.5em; */
+    width: 1.5em;
+    height: auto;
+}
+
+.problem-details-section .cta-LT{
+    /* width: 100%; */
+}
+
+/* problem section ends */
 
 
 

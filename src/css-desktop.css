@@ -38,6 +38,10 @@ section{
     margin: 0 auto;
 }
 
+ul{
+    list-style-type: none;
+}
+
 a{
     text-decoration: none;
 }
@@ -46,6 +50,7 @@ button{
     outline: none;
     border: none;
     font-size: 1rem;
+    font-size: clamp(0.613rem, 1.5vw, 1rem);
     font-family: var(--secondary-font);
     letter-spacing: 0.1rem;
     font-weight: 800;
@@ -54,6 +59,12 @@ button{
 }
 
 .cta-SMPP{
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.cta-LT{
     color: var(--secondary-color);
     background-color: var(--primary-color);
     border-color: var(--primary-color);
@@ -170,3 +181,98 @@ button{
 
 /* hero section ends */
 
+/* problem section starts */
+
+.problem-section{
+    padding: 6em 0;
+}
+
+.problem-wrap{
+    display: grid;
+    grid-template-columns: 58% 42%;
+    /* border: 1px solid red; */
+}
+
+.problem-info-section{
+    /* border: 1px solid green; */
+}
+
+.problem-info-heading{
+    width: 90%;
+    font-family: var(--primary-font);
+    /* font-size: 2.813rem; */
+    font-size: clamp(1.724rem, 4vw, 2.813rem);
+    /* color: var(--main-color); */
+    line-height: 4.25rem;
+    line-height: clamp( 2.606rem, 5vw, 4.25rem);
+    margin-bottom: 1em;
+}
+
+.problem-info-heading span{
+    font-style: italic;
+}
+
+.problem-info-subsection{
+
+}
+
+.problem-info-quotes{
+    font-family: var(--secondary-font);
+    font-size: clamp(0.959rem, 2.5vw, 1.563rem);
+    line-height: clamp(1.344rem, 2.5vw, 22.188rem);
+    font-weight: 400;
+    margin-bottom: 0.3em;
+}
+
+.problem-info-author{
+    font-family: var(--secondary-font);
+    font-size: clamp(0.768rem, 0.768rem + 0.5vw, 2.188rem);
+    font-weight: 700;
+}
+
+.problem-details-section{
+    /* border: 1px solid blue; */
+}
+
+.problem-details-p{
+    font-family: var(--secondary-font);
+    font-size: clamp(0.614rem, 2vw, 1rem);
+    /* font-size: 1.2vw; */
+    /* font-size: min(0.414rem); */
+    line-height: clamp(1.225rem, 3vw, 2rem);
+    /* line-height: 4vh; */
+    /* line-height: min(1.225rem); */
+    font-weight: 600;
+    margin-bottom: 2em;
+}
+
+.problem-details-p.ul{
+    margin-bottom: 0.2em;
+}
+
+.problem-details-ul{
+    margin-bottom: 2em;
+}
+
+.problem-details-p span{
+    font-weight: 800;
+}
+
+.problem-details-li{
+    line-height: clamp(2rem, 2vw, 3rem);
+    font-family: var(--secondary-font);
+    font-size: clamp(0.614rem, 2vw, 1rem);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.problem-details-li img{
+    margin-right: 1.5em;
+}
+
+.problem-details-section .cta-LT{
+    width: 100%;
+}
+
+/* problem section ends */
