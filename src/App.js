@@ -5,6 +5,9 @@ import './css-phone.css';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Problem from './components/Problem';
+import About from './components/About';
+import TIPS from './components/TIPS';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
       <Navigation />
       <Hero />
       <Problem />
+      <About />
+      <TIPS />
+      <Footer />
     </div>
   );
 }
