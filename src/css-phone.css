@@ -111,7 +111,6 @@ button{
     align-items: center;
     /* flex-wrap: wrap; */
     margin-right: 0;
-    /* border: 1px solid red; */
     padding-top: 2em;
 }
 
@@ -288,6 +287,88 @@ button{
 }
 
 /* problem section ends */
+
+/* process section starts */
+
+.process-section{
+    padding: 4em 0;
+    /* background-color: var(--grey-color); */
+}
+
+.process-heading{
+    /* font-family: var(--tertiary-font); */
+    font-size: 2.813rem;
+    /* font-weight: 100; */
+    /* color: var(--pale-white-color); */
+    margin-bottom: 1em;
+}
+
+.process-container{
+    width: 90%;
+    /* margin: 0 auto; */
+    /* display: grid; */
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    row-gap: 2em;
+    padding: 0 1.8em;
+}
+
+.process-sec{
+    /* background-color: var(--tertiary-color); */
+    padding: 2.2em 1.8em;
+    /* color: var(--secondary-color); */
+    box-shadow: 0 2.25% 2.25% rgba(0,0,0,0.25);
+    /* border-radius: 5px; */
+}
+
+.process-head{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    margin-bottom: 0.8em;
+}
+
+.process-icon-section{
+    width: 4em;
+    height: 4em;
+    /* border: 1px solid var(--main-color); */
+    /* border-radius: 50%; */
+    /* position: relative; */
+}
+
+.process-icon-section img{
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    width: 2.2em;
+    /* height: auto; */
+}
+
+.process-index{
+    /* font-family: var(--tertiary-font); */
+    font-size: 3.75rem;
+    /* font-size: clamp(2rem, 5.5vw, 2.636rem); */
+    /* font-weight: 100; */
+    /* color: var(--pale-white-color); */
+    /* opacity: 0.5;  */
+    /* line-height: 100%; */
+}
+
+.process-header{
+    /* font-family: var(--secondary-font); */
+    font-size: 1.406rem;
+    /* margin-bottom: 0.8em; */
+}
+
+.process-p{
+    /* font-family: var(--secondary-font); */
+    font-size: 0.875rem;
+    line-height: 1.3rem;
+    /* font-weight: 200; */
+}
+
+/* process section ends */
 
 /* about section starts */
 

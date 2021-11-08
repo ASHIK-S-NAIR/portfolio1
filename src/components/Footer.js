@@ -6,7 +6,7 @@ import Dribbble from "../images/Dribbble.png";
 
 function Footer() {
   return (
-    <div className="footer-section">
+    <section className="footer-section">
       <div className="wrap footer-wrap">
         <div className="footer-container">
           <h3 className="footer-container-subheading">
@@ -47,7 +47,7 @@ function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
