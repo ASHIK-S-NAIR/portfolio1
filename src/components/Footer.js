@@ -27,16 +27,16 @@ function Footer() {
         <div className="footer-bottom">
           <div className="wrap footer-bottom-wrap">
             <div className="footer-bottom-social-icons">
-              <a href="#" className="footer-bottom-icon">
+              <a href="/" className="footer-bottom-icon">
                 <img src={Mail} alt="" className="footer-bottom-icon-img" />
               </a>
-              <a href="#" className="footer-bottom-icon">
+              <a href="/" className="footer-bottom-icon">
                 <img src={LinkedIn} alt="" className="footer-bottom-icon-img" />
               </a>
-              <a href="#" className="footer-bottom-icon">
+              <a href="/" className="footer-bottom-icon">
                 <img src={GitHub} alt="" className="footer-bottom-icon-img" />
               </a>
-              <a href="#" className="footer-bottom-icon">
+              <a href="/" className="footer-bottom-icon">
                 <img src={Dribbble} alt="" className="footer-bottom-icon-img" />
               </a>
             </div>
