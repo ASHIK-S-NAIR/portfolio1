@@ -7,6 +7,7 @@ import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Problem from './components/Problem';
 import Process from './components/Process';
+import Projects from './components/Projects';
 import About from './components/About';
 import FAQs from './components/FAQs';
 import TIPS from './components/TIPS';
@@ -20,6 +21,7 @@ function App() {
       <Hero />
       <Problem />
       <Process />
+      <Projects />
       <About />
       <FAQs />
       <TIPS />
