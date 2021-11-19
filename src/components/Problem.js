@@ -8,7 +8,7 @@ function Problem() {
       <div className="wrap problem-wrap">
         <div className="problem-info-section">
           <h1 className="problem-info-heading">
-            Being in a crowd is worth less than <span>standing out</span>from a crowd.
+            Being in a crowd is worth less than <span>standing out </span> from a crowd.
           </h1>
           <div className="problem-info-subsection">
             <h3 className="problem-info-quotes">
