@@ -7,7 +7,7 @@ import Arrow from '../images/Arrow 1.svg';
 
 function Footer() {
   return (
-    <section className="footer-section">
+    <section className="footer-section" id="footer">
       <div className="wrap footer-wrap">
         <div className="footer-container">
           <h3 className="footer-container-subheading">
@@ -28,16 +28,16 @@ function Footer() {
         <div className="footer-bottom">
           <div className="wrap footer-bottom-wrap">
             <div className="footer-bottom-social-icons">
-              <a href="/" className="footer-bottom-icon">
+              <a href="/" className="footer-bottom-icon" content='Email' >
                 <img src={Mail} alt="" className="footer-bottom-icon-img" />
               </a>
-              <a href="/" className="footer-bottom-icon">
+              <a href="/" className="footer-bottom-icon" content='LinkedIn' >
                 <img src={LinkedIn} alt="" className="footer-bottom-icon-img" />
               </a>
-              <a href="/" className="footer-bottom-icon">
+              <a href="/" className="footer-bottom-icon" content='GitHub' >
                 <img src={GitHub} alt="" className="footer-bottom-icon-img" />
               </a>
-              <a href="/" className="footer-bottom-icon">
+              <a href="/" className="footer-bottom-icon" content='Dribbble' >
                 <img src={Dribbble} alt="" className="footer-bottom-icon-img" />
               </a>
             </div>
