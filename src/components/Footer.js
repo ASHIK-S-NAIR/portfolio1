@@ -3,6 +3,7 @@ import Mail from "../images/Mail.png";
 import LinkedIn from "../images/LinkedIn.png";
 import GitHub from "../images/GitHub.png";
 import Dribbble from "../images/Dribbble.png";
+import Arrow from '../images/Arrow 1.svg';
 
 function Footer() {
   return (
@@ -16,8 +17,8 @@ function Footer() {
             SHALL WE WORK <br /> <span>TOGETHER?</span>
           </h1>
           <div className="footer-cta-section">
-            <button className="footer-container-LT-btn cta-LT">
-              LET'S TALK
+            <button className="footer-container-LT-btn cta-interative cta-LT">
+              <p>LET'S TALK</p><img src={Arrow} alt="" />
             </button>
             <button className="footer-container-email-btn cta-EMAIL">
               aashiq5342@gmail.com

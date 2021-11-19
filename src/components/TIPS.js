@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {tips} from '../tipData';
+import Arrow from '../images/Arrow 1.svg';
 
 function TIPS() {
 
@@ -25,11 +26,10 @@ function TIPS() {
                 <div className="tips-left">
                     <h3 className="tips-subheading">Thanks for visiting my Portfolio!</h3>
                     <h1 className="tips-heading">I WOULD LIKE TO GIFT <br /> YOU SOME <span>TIPS!</span></h1>
-                    <button className="cta-GYFT" onClick={generateTip}>GENERATE YOUR FREE TIP</button>
+                    <button className="cta-interative cta-GYFT" onClick={generateTip}> <p>GENERATE YOUR FREE TIP</p><img src={Arrow} alt="" /></button>
                 </div>
                 <div className="tips-right">
                     <div className={tipIndex !== null ? "tips-quotes-symbol show" : "tips-quotes-symbol"}> <span>&ldquo;</span><br /> <p>{tips[tipIndex]}</p></div>
-                    {/* <p className="tips-p"></p>  */}
                 </div>
             </div>
         </section>

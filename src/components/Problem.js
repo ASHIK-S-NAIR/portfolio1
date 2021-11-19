@@ -1,5 +1,6 @@
 import React from "react";
 import Checked from '../images/Checked.png';
+import Arrow from '../images/Arrow 1.svg';
 
 function Problem() {
   return (
@@ -28,7 +29,7 @@ function Problem() {
                 </ul>
             </div>
             <p className="problem-details-p"> <span>A professional-engaging website can help you form a good impression on your prospective customers.</span>It can also help you nurture your leads and get more conversions. But, more importantly, it provides a good user experience and helps your website visitors access and navigate your website with ease.</p>
-            <button className="cta-LT">LET'S TALK</button>
+            <button className=" cta-interative cta-LT"> <p> LET'S TALK</p> <img src={Arrow} alt="" /></button>
         </div>
       </div>
     </section>

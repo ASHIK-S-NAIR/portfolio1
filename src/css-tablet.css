@@ -43,7 +43,6 @@
 button{
     /* outline: none; */
     /* border: none; */
-    font-size: 0.613rem;
     font-size: clamp(0.5rem, 1vw, 0.613rem);
     /* font-family: var(--secondary-font); */
     /* letter-spacing: 0.1rem; */
@@ -52,10 +51,24 @@ button{
     padding: 1.1em 2.8em;
 }
 
-.cta-SMPP{
+.cta-interative:hover p{
     /* color: var(--secondary-color); */
-    /* background-color: var(--primary-color); */
-    /* border-color: var(--primary-color); */
+    transform: translateX(-1.5em);
+}
+
+.cta-interative img{
+    /* position: absolute; */
+    /* width: auto; */
+    height: 1.1em;
+    /* top: 50%; */
+    /* right: -20%; */
+    /* transform: translateY(-50%); */
+    /* z-index: 10; */
+    /* transition: right 0.3s; */
+}
+
+.cta-interative:hover img{
+    right: 7%;
 }
 
 /* general settings end */
@@ -259,6 +272,10 @@ button{
 
 .problem-details-section .cta-LT{
     /* width: 100%; */
+}
+
+.problem-details-section .cta-LT:hover img{
+    right: 32%;
 }
 
 /* problem section ends */
@@ -709,6 +726,10 @@ button{
     /* color: var(--main-color); */
 }
 
+.tips-left  .cta-GYFT:hover img{
+    right: 6%;
+}
+
 .tips-quotes-symbol.show span{
     font-size: 5.5rem;
 }
@@ -773,6 +794,10 @@ button{
     margin: 0 1em;
     width: 20em;
 } */
+
+.footer-cta-section .cta-LT:hover img{
+    right: 21%;
+}
 
 /* .footer-bottom{
     position: absolute;

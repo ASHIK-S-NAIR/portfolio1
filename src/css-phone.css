@@ -55,6 +55,26 @@ button{
     padding: 1.2em 3.5em;
 }
 
+.cta-interative img{
+    /* position: absolute; */
+    /* width: auto; */
+    height: 1rem;
+    /* top: 50%; */
+    /* right: -20%; */
+    /* transform: translateY(-50%); */
+    /* z-index: 10; */
+    /* transition: right 0.3s; */
+}
+
+.cta-interative:hover img{
+    right: 16%;
+}
+
+.cta-interative:hover p{
+    /* color: var(--secondary-color); */
+    transform: translateX(-2em);
+}
+
 .cta-SMPP{
     color: var(--secondary-color);
     background-color: var(--primary-color);
@@ -284,6 +304,10 @@ button{
 
 .problem-details-section .cta-LT{
     /* width: 100%; */
+}
+
+.problem-details-section .cta-LT:hover img{
+    right: 32%;
 }
 
 /* problem section ends */
@@ -818,6 +842,10 @@ button{
     width: 100%;
 }
 
+.tips-left  .cta-GYFT:hover img{
+    right: 13%;
+}
+
 .tips-right{
     width: 100%;
     padding-top: 2em;
@@ -901,6 +929,10 @@ button{
 .footer-container-email-btn{
     margin: 0.8em 0;
     width: 100%;
+}
+
+.footer-cta-section .cta-LT:hover img{
+    right: 32%;
 }
 
 /* .footer-bottom{
