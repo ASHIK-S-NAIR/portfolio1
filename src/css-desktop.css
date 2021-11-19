@@ -745,6 +745,7 @@ button{
     color: var(--secondary-color);
     box-shadow: 0 2.25% 2.25% rgba(0,0,0,0.25);
     border-radius: 5px;
+    padding: 0.1em 0;
     /* border: 1px solid red; */
 }
 
@@ -753,12 +754,13 @@ button{
     align-items: center;
     cursor: pointer;
     background-color: transparent;
-    padding: 1.3em 3.5em;
+    padding: 1.8em 3.5em;
     border: none;
     width: 100%;
 }
 
 .faq-question-icon{
+    width: clamp(1.125rem, 2.5vw, 2rem);
     margin-right: 1.8em;
     transition: 0.3s ease-in-out;
 }
@@ -769,7 +771,7 @@ button{
 
 .faq-question{
     font-family: var(--secondary-font);
-    font-size: clamp(1.125rem, 2vw, 1.563rem);
+    font-size: clamp(1.125rem, 1.7vw, 1.563rem);
     /* font-size: 1.2vw; */
     /* font-size: min(0.414rem); */
     line-height: clamp(2rem, 3vw, 6.25rem);
