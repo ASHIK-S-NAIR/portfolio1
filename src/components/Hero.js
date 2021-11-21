@@ -1,9 +1,20 @@
-import React from "react";
+import React,{useRef, useEffect} from "react";
 import Ashik from "../images/ashik.jpg";
 import Verified from "../images/Verified Freelancer.png";
 import Arrow from "../images/Arrow 1.svg";
 
 function Hero() {
+
+  const VerifiedImg = useRef(null);
+
+  function scrollRotate(){
+    VerifiedImg.current.style.transform = "rotate(" + window.pageYOffset / 4 + "deg)";
+  }
+
+  window.onscroll = function(){
+    scrollRotate();
+  }
+
   return (
     <section className="hero-section">
       <div className="wrap hero-wrap">
@@ -22,7 +33,7 @@ function Hero() {
         </div>
         <div className="hero-img-section">
           <img src={Ashik} alt="" className="hero-img" />
-          <img src={Verified} alt="" className="hero-img-section-verified" />
+          <img src={Verified} alt="" ref={VerifiedImg} className="hero-img-section-verified" />
         </div>
       </div>
     </section>
