@@ -103,6 +103,21 @@ button{
     /* letter-spacing: 0.3rem; */
 }
 
+.navigation-ul{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1.3em;
+    /* border: 1px solid black; */
+}
+
+.navigation-a span{
+    /* font-family: var(--primary-font); */
+    font-size: 1.5rem;
+    /* font-weight: 400; */
+    /* -webkit-text-fill-color: var(--secondary-color); */
+    /* -webkit-text-fill-color: var(--primary-color); */
+}
+
 /* navigation section ends */
 
 /* hero section starts */
