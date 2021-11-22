@@ -1,4 +1,4 @@
-import React,{useRef, useEffect} from "react";
+import React,{useRef} from "react";
 import Ashik from "../images/ashik.jpg";
 import Verified from "../images/Verified Freelancer.png";
 import Arrow from "../images/Arrow 1.svg";
@@ -8,7 +8,7 @@ function Hero() {
   const VerifiedImg = useRef(null);
 
   function scrollRotate(){
-    VerifiedImg.current.style.transform = "rotate(" + window.pageYOffset / 4 + "deg)";
+    VerifiedImg.current.style.transform = "rotate(" + window.pageYOffset / 6 + "deg)";
   }
 
   window.onscroll = function(){
