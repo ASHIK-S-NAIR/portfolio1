@@ -19,6 +19,12 @@ function Process() {
                     </div>
                     <h1 className="process-header">Plan</h1>
                     <p className="process-p">Handpicking user-focused fruitful content and resolving the functionalities. Structuring and wireframing to layout content.</p>
+                    <div className="process-tools" id="process-plan">
+                        <ul className="process-ul">
+                            <li className="process-li">Pen</li>
+                            <li className="process-li">Paper</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div className="process-sec">
@@ -30,6 +36,11 @@ function Process() {
                     </div>
                     <h1 className="process-header">Design</h1>
                     <p className="process-p">Choosing optimum colors, fonts, and icons. Setting up the layout concerning User Interface and User Experience for the best output.</p>
+                    <div className="process-tools" id="process-design">
+                    <ul className="process-ul">
+                            <li className="process-li">Figma</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div className="process-sec">
@@ -41,6 +52,14 @@ function Process() {
                     </div>
                     <h1 className="process-header">Build</h1>
                     <p className="process-p">Layout implemented using structuring and styling languages. Interactivity is added, using programming language also utilizing libraries and functions. </p>
+                    <div className="process-tools" id="process-build">
+                    <ul className="process-ul">
+                            <li className="process-li">HTML</li>
+                            <li className="process-li">CSS</li>
+                            <li className="process-li">JAVASCRIPT</li>
+                            <li className="process-li">SASS</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>

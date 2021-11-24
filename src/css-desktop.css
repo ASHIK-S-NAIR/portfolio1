@@ -579,7 +579,100 @@ button{
     /* max-width: 20rem;s */
     box-shadow: 0 2.25% 2.25% rgba(0,0,0,0.25);
     border-radius: 5px;
+    position: relative;
+    overflow: hidden;
 }
+
+.process-tools{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    /* border: 1px solid yellow; */
+    /* background-color: red; */
+    color: #fff;
+    transform: translate(0,100%);
+    transition: 0.2s transform ease-in-out;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+}
+
+.process-tools::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(rgb(70, 5, 70), transparent); */
+    background: rgba(3, 200, 141,0.5);
+    /* border: 1px solid orange; */
+    border-radius: 5px;
+    /* transform: translate(0,100%); */
+}
+
+#process-plan{
+    background-image: url('../src/images/figma.JPG');
+    /* object-fit: contain; */
+    /* border: 1px solid red; */
+}
+
+#process-design{
+    background-image: url('../src/images/figma.JPG');
+}
+
+#process-build{
+    background-image: url('../src/images/vscode.JPG');
+}
+
+.process-ul{
+    position: absolute;
+    display: flex;
+    width: 80%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin-inline: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.process-li{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    padding: 0.09em 1em;
+    border-radius: 1em;
+    margin-right: 1em;
+    border: 1px solid var(--secondary-color);
+    text-shadow: 1px 1px gray;
+    box-shadow: 1px 1px gray;
+}
+
+.process-tools p{
+    z-index: 1000;
+    position: absolute;
+}
+
+
+
+.process-sec:hover .process-tools{
+    transform: translate(0,0);
+}
+
+/* .process-sec:hover .process-tools::before{
+    transform: translate(0,0);
+} */
 
 .process-head{
     display: flex;
