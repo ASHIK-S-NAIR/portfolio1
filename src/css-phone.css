@@ -957,6 +957,10 @@ button{
     right: 32%;
 }
 
+.cta-EMAIL::before{
+    font-size: 0.7rem;
+}
+
 /* .footer-bottom{
     position: absolute;
     bottom: 0;

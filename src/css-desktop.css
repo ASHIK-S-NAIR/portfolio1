@@ -137,7 +137,7 @@ button{
     border: 2px solid var(--primary-color);
     padding: 1.1em 3.5em;
     cursor: none;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
 }
 
@@ -1115,6 +1115,39 @@ button{
     right: 26%;
 }
 
+.cta-EMAIL{
+    position: relative;
+    overflow: visible;
+}
+
+.cta-EMAIL::before{
+    content: 'copied to clipboard';
+    width: fit-content;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 135%);
+    opacity: 0;
+    background-color: transparent;
+    color: var(--primary-color);
+    padding: 0.3em 0.5em;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    border-radius: 5px;
+    font-family: var(--secondary-font);
+    font-size: 0.8rem;
+    /* border: 1px solid var(--primary-color); */
+    transition: opacity 0.3s ease;
+    /* background-color: red; */
+}
+
+.cta-EMAIL.activate::before{
+    opacity: 1;
+    /* border: 1px solid var(--primary-color); */
+}
+
 .footer-bottom{
     position: absolute;
     bottom: 0;
@@ -1127,7 +1160,6 @@ button{
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    /* border: 1px solid red; */
 }
 
 .footer-bottom-social-icons{
@@ -1137,7 +1169,6 @@ button{
 .footer-bottom-icon{
     margin-left: 1.3em;
     position: relative;
-    /* border: 1px solid violet; */
 }
 
 .footer-bottom-icon::before{

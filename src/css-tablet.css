@@ -823,6 +823,10 @@ button{
     right: 21%;
 }
 
+.cta-EMAIL::before{
+    font-size: 0.5rem;
+}
+
 /* .footer-bottom{
     position: absolute;
     bottom: 0;
