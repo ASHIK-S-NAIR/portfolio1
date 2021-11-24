@@ -15,7 +15,7 @@ function Accordion() {
     }
 
     return (
-        <section className="faq-section">
+        <section id="faq-id" className="faq-section">
             <div className="wrap">
                 <h1 className="faq-heading">FAQ'S</h1>
                 <ul className="faq-container">

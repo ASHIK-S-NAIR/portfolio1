@@ -8,7 +8,7 @@ import Cycling from "../images/Cycling Mountain Bike.png";
 
 function About() {
   return (
-    <section className="about-section">
+    <section id="about-id" className="about-section">
       <div className="wrap about-wrap">
         <div className="about-img-section">
           <img src={AboutAshik} alt="" className="about-img" />

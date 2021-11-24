@@ -5,7 +5,7 @@ import Google from '../images/Google Code.png';
 
 function Process() {
     return (
-        <section className="process-section">
+        <section id="process-id" className="process-section">
             <div className="wrap process-wrap">
                 <h1 className="process-heading">MY PROCESS</h1>
             </div>

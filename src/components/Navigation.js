@@ -32,12 +32,12 @@ function Navigation() {
       <div className="navigation-menu" ref={menu}>
         <div className="wrap ul-wrap">
           <ul className="navigation-ul">
-            <li className="navigation-li"><a href="#" className="navigation-a" > <span>01</span>HOME </a></li>
-            <li className="navigation-li"><a href="#" className="navigation-a"> <span>02</span>PROCESS </a></li>
-            <li className="navigation-li"><a href="#" className="navigation-a"> <span>03</span>PROJECTS </a></li>
-            <li className="navigation-li"><a href="#" className="navigation-a"> <span>04</span>ABOUT </a></li>
-            <li className="navigation-li"><a href="#" className="navigation-a"> <span>05</span>FAQ'S </a></li>
-            <li className="navigation-li"><a href="#" className="navigation-a"> <span>06</span>CONTACT </a></li>
+            <li className="navigation-li" onClick={toggle} ><a href="/" className="navigation-a" > <span>01</span>HOME </a></li>
+            <li className="navigation-li" onClick={toggle} ><a href="#process-id" className="navigation-a"> <span>02</span>PROCESS </a></li>
+            <li className="navigation-li" onClick={toggle} ><a href="#projects-id" className="navigation-a"> <span>03</span>PROJECTS </a></li>
+            <li className="navigation-li" onClick={toggle} ><a href="#about-id" className="navigation-a"> <span>04</span>ABOUT </a></li>
+            <li className="navigation-li" onClick={toggle} ><a href="#faq-id" className="navigation-a"> <span>05</span>FAQ'S </a></li>
+            <li className="navigation-li" onClick={toggle} ><a href="#" className="navigation-a"> <span>06</span>CONTACT </a></li>
           </ul>
         </div>
       </div>
