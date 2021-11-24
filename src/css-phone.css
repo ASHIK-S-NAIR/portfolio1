@@ -413,6 +413,10 @@ button{
     text-align: justify;
 }
 
+.process-li{
+    font-size: 0.938rem;
+}
+
 /* process section ends */
 
 /* projects section starts */

@@ -595,7 +595,7 @@ button{
     /* border: 1px solid yellow; */
     /* background-color: red; */
     color: #fff;
-    transform: translate(0,100%);
+    transform: translate(0,105%);
     transition: 0.2s transform ease-in-out;
     border-radius: 5px;
     background-repeat: no-repeat;
@@ -638,33 +638,27 @@ button{
 .process-ul{
     position: absolute;
     display: flex;
-    width: 80%;
+    max-width: 90%;
     height: auto;
-    /* border: 1px solid red; */
-    margin-inline: 2em;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
 .process-li{
-    font-size: 1rem;
+    font-size: clamp(0.614rem, 2vw, 1rem);
     font-weight: 600;
     color: var(--secondary-color);
     font-family: var(--secondary-font);
     padding: 0.09em 1em;
     border-radius: 1em;
-    margin-right: 1em;
+    margin: 0.5em;
     border: 1px solid var(--secondary-color);
-    text-shadow: 1px 1px gray;
+    background-color: var(--tertiary-color);
+    background-color: rgba(0, 0, 0,0.1);
+    /* text-shadow: 1px 1px gray; */
     box-shadow: 1px 1px gray;
 }
-
-.process-tools p{
-    z-index: 1000;
-    position: absolute;
-}
-
-
 
 .process-sec:hover .process-tools{
     transform: translate(0,0);

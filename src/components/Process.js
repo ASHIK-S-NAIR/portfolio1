@@ -38,6 +38,7 @@ function Process() {
                     <p className="process-p">Choosing optimum colors, fonts, and icons. Setting up the layout concerning User Interface and User Experience for the best output.</p>
                     <div className="process-tools" id="process-design">
                     <ul className="process-ul">
+                            <li className="process-li">Photoshop</li>
                             <li className="process-li">Figma</li>
                         </ul>
                     </div>
@@ -56,8 +57,11 @@ function Process() {
                     <ul className="process-ul">
                             <li className="process-li">HTML</li>
                             <li className="process-li">CSS</li>
-                            <li className="process-li">JAVASCRIPT</li>
+                            <li className="process-li">Javascript</li>
                             <li className="process-li">SASS</li>
+                            <li className="process-li">ReactJS</li>
+                            <li className="process-li">JSON</li>
+                            <li className="process-li">Git</li>
                         </ul>
                     </div>
                 </div>
