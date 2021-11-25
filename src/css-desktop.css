@@ -402,10 +402,6 @@ button{
     font-style: italic;
 }
 
-.hero-info-heading span:hover{
-    color: var(--main-color);
-}
-
 .hero-img-section{
     /* width: clamp(13.643em, 0.5vw, 22.25em);
     height: clamp(17.69em, 0.5vh, 28em); */
@@ -426,10 +422,10 @@ button{
     content: '';
     bottom: 0;
     left: 0;
-    bottom: -15%;
-    left: -32%;
+    bottom: -12%;
+    left: -26%;
     /* transform: translate(-45%, 30%); */
-    width: 18vw;
+    width: 14.5vw;
     height: auto;
     /* width: 10em;
     height: 10em; */
@@ -749,6 +745,7 @@ button{
     width: 85%;
     display: flex;
     align-items: center;
+    /* border: 1px solid red; */
 }
 
 .slide{
@@ -776,7 +773,7 @@ button{
     background-color: #fff;
     align-self: center;
     padding: 1.5em 2em;
-    /* border: 1px solid orange; */
+    /* border: 1px solid orange */
     transform: translateX(2.5em);
     box-shadow: 0px 2px 20px rgba(0,0,0,0.1);
     /* box-shadow: 0 2.25% 2.25% rgba(0,0,0,0.25); */
