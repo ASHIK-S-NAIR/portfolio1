@@ -232,6 +232,12 @@ button{
 
 .navigation{
     height: 4em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
     /* border: 1px solid red; */
 }
 
@@ -354,7 +360,7 @@ button{
 /* hero section starts */
 
 .hero-section{
-    padding: 3em 0;
+    padding: 7em 0 3em 0;
 }
 
 .hero-wrap{
