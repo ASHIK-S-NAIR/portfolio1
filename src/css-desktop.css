@@ -1329,17 +1329,28 @@ button{
 }
 
 .contact-section{
-    padding: 7em 0 3em 0;
-    display: flex;
+    /* padding: 7em 0 3em 0; */
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    /* border: 1px solid green; */
+}
+
+.contact-wrap{
+    /* border: 1px solid yellow; */
+    display: grid;
+    grid-template-columns: 44% 56%;
+    align-items: center;
 }
 
 .contact-form-section{
-    width: 50%;
+    width: 100%;
     /* border: 1px solid green; */
 }
 
 .contact-form{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1373,11 +1384,18 @@ button{
     font-size: clamp(0.614rem, 2vw, 1rem);
     font-family: var(--secondary-font);
     border: none;
-    border-bottom: 1px solid var(--grey-color);
+    border-bottom: 1px solid rgb(175, 173, 173);
     outline: none;
     padding: 1rem;
     background: transparent;
     z-index: 1;
+}
+
+.contact-form-textarea{
+    overflow-y:  visible;
+    /* max-height: 10em; */
+    /* height: 3.3em; */
+    /* border: 1px solid yellow; */
 }
 
 .contact-form-label{
@@ -1427,8 +1445,44 @@ button{
 } */
 
 .contact-form-input:focus{
-    border-color: var(--main-color);
+    /* border-color: var(--main-color); */
+    border: 1px solid var(--main-color);
     background-color: transparent;
+}
+
+.contact-details-section{
+    width: 100%;
+    padding: 1em 0 1em 1.5em;
+    /* border: 1px solid red; */
+}
+
+.contact-details-title{
+    font-size: 0.938rem;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    /* margin-bottom: 0em; */
+    color: var(--main-color);
+}
+
+.contact-details-heading{
+    font-family: var(--primary-font);
+    /* font-size: 2.813rem; */
+    font-size: clamp(1.724rem, 4vw, 2.813rem);
+    /* color: var(--main-color); */
+    /* line-height: 4.25rem; */
+    /* line-height: clamp( 2.606rem, 5vw, 4.25rem); */
+    margin-bottom: 0.1em;
+    /* border: 1px solid blue; */
+}
+
+.contact-details-subheading{
+    font-family: var(--secondary-font);
+    font-size: clamp(0.959rem, 2.5vw, 1.563rem);
+    line-height: clamp(1.344rem, 2.5vw, 22.188rem);
+    font-weight: 400;
+    margin-top: 1em;
+    margin-bottom: 0.8em;
 }
 
 /* contact-container section ends */

@@ -60,13 +60,16 @@ function Contact() {
 
             <div className="contact-form-row">
               <div className="contact-form-sec">
-                <input
+                {/* <input
                   className="contact-form-input"
                   type="text"
                   name="Message"
                   placeholder= " "
                   required
-                />
+                /> */}
+
+                <textarea name="Message" className="contact-form-input contact-form-textarea" placeholder= " "
+                  required></textarea>
                 <label className="contact-form-label">Message</label>
               </div>
             </div>
@@ -119,6 +122,12 @@ function Contact() {
             />
             <input type="hidden" name="_captcha" value="false" /> */}
           </form>
+        </div>
+        <div className="contact-details-section">
+          <h3 className="contact-details-title">CONTACT ME</h3>
+          <h1 className="contact-details-heading">Let's start a conversation</h1>
+          <h1 className="contact-details-heading">Feel free to talk-</h1>
+          <h3 className="contact-details-subheading">Let's work together on your next project</h3>
         </div>
       </div>
     </section>
