@@ -120,6 +120,7 @@ section{
     /* width: 1161px;
     width: 1500px; */
     margin: 0 auto;
+    width: min(85%, 1300px);
 }
 
 ul{
@@ -446,7 +447,9 @@ button{
     bottom: -12%;
     left: -26%;
     /* transform: translate(-45%, 30%); */
-    width: 14.5vw;
+    /* width: 14.5vw; */
+    /* width: 12.5em; */
+    width: 58%;
     height: auto;
     /* width: 10em;
     height: 10em; */
@@ -741,6 +744,7 @@ button{
 
 .projects-section{
     padding: 6em 0;
+    border:1px solid red;
 }
 
 .projects-heading{
