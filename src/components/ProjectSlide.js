@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function ProjectSlide({heading, description, tech, image}) {
+function ProjectSlide({heading, description, tech, image, gitLink}) {
     return (
         <div className="project-slide">
             <div className="project-left-slide">
@@ -10,7 +10,9 @@ function ProjectSlide({heading, description, tech, image}) {
                 <p className="projects-left-tech">{tech}</p>
                 <div className="project-cta-section">
                     <button className="cta-VS">VISIT SITE</button>
-                    <button className="cta-GL">GitHubLink</button>
+                    <a href={gitLink}>
+                        <button className="cta-GL">GitHubLink</button>
+                    </a>
                 </div>
             </div>
             <div className="project-right-slide">
