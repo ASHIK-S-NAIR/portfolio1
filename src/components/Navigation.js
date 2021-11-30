@@ -1,4 +1,6 @@
 import React,{useRef} from "react";
+import {Link} from "react-router-dom";
+import {HashLink} from 'react-router-hash-link';
 
 function Navigation() {
 
@@ -33,11 +35,15 @@ function Navigation() {
         <div className="wrap ul-wrap">
           <ul className="navigation-ul">
             <li className="navigation-li" onClick={toggle} ><a href="/" className="navigation-a" > <span>01</span>HOME </a></li>
-            <li className="navigation-li" onClick={toggle} ><a href="#process-id" className="navigation-a"> <span>02</span>PROCESS </a></li>
-            <li className="navigation-li" onClick={toggle} ><a href="#projects-id" className="navigation-a"> <span>03</span>PROJECTS </a></li>
-            <li className="navigation-li" onClick={toggle} ><a href="#about-id" className="navigation-a"> <span>04</span>ABOUT </a></li>
-            <li className="navigation-li" onClick={toggle} ><a href="#faq-id" className="navigation-a"> <span>05</span>FAQ'S </a></li>
-            <li className="navigation-li" onClick={toggle} ><a href="#" className="navigation-a"> <span>06</span>CONTACT </a></li>
+            {/* <li className="navigation-li" onClick={toggle} ><a href="#process-id" className="navigation-a"> <span>02</span>PROCESS </a></li> */}
+            <li className="navigation-li" onClick={toggle} > <HashLink to="/#process-id" className="navigation-a"><span>02</span>PROCESS </HashLink> </li>
+            {/* <li className="navigation-li" onClick={toggle} ><a href="#projects-id" className="navigation-a"> <span>03</span>PROJECTS </a></li> */}
+            <li className="navigation-li" onClick={toggle} > <HashLink to="/#projects-id" className="navigation-a"><span>03</span>PROJECTS </HashLink> </li>
+            {/* <li className="navigation-li" onClick={toggle} ><a href="#about-id" className="navigation-a"> <span>04</span>ABOUT </a></li> */}
+            <li className="navigation-li" onClick={toggle} > <HashLink to="/#about-id" className="navigation-a"><span>04</span>ABOUT </HashLink> </li>
+            {/* <li className="navigation-li" onClick={toggle} ><a href="#faq-id" className="navigation-a"> <span>05</span>FAQ'S </a></li> */}
+            <li className="navigation-li" onClick={toggle} > <HashLink to="/#faq-id" className="navigation-a"><span>05</span>FAQ'S </HashLink> </li>
+            <li className="navigation-li" onClick={toggle} > <Link to="/contact" className="navigation-a" ><span>06</span>CONTACT</Link></li>
           </ul>
         </div>
       </div>
