@@ -9,7 +9,7 @@ function Process() {
             <div className="wrap process-wrap">
                 <h1 className="process-heading">MY PROCESS</h1>
             </div>
-            <div className="process-container">
+            <div className=" wrap process-container">
                 <div className="process-sec">
                     <div className="process-head">
                         <div className="process-icon-section">

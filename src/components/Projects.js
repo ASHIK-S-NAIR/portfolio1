@@ -25,7 +25,7 @@ function Projects() {
         <h1 className="projects-heading">MY PROJECTS</h1>
       </div>
 
-      <div className="projects-container">
+      <div className="wrap projects-container">
         <div className="projects-left-section">
           {sliderData.map((slide, index) => {
             return (
