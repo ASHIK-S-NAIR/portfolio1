@@ -60,14 +60,6 @@ function Contact() {
 
             <div className="contact-form-row">
               <div className="contact-form-sec">
-                {/* <input
-                  className="contact-form-input"
-                  type="text"
-                  name="Message"
-                  placeholder= " "
-                  required
-                /> */}
-
                 <textarea name="Message" className="contact-form-input contact-form-textarea" placeholder= " "
                   required></textarea>
                 <label className="contact-form-label">Message</label>
@@ -77,7 +69,7 @@ function Contact() {
             <input
               type="hidden"
               name="_next"
-              value="http://kanakavalli.atwebpages.com/thankyou.html"
+              value="http://kanakavalli.atwebpages.com/thankyou"
             />
             <input type="hidden" name="_captcha" value="false" />
 
@@ -93,34 +85,6 @@ function Contact() {
                 </button>
               </div>
             </div>
-
-            {/* <input
-              className="real-email"
-              type="hidden"
-              name="email"
-              placeholder="Email Address"
-              required
-              value={name}
-            />
-            <input
-              className="real-subject"
-              type="hidden"
-              name="_subject"
-              placeholder="Enter the subject"
-            />
-            <input
-              className="real-message"
-              type="hidden"
-              name="name"
-              placeholder="write your message here"
-              required
-            />
-            <input
-              type="hidden"
-              name="_next"
-              value="http://kanakavalli.atwebpages.com/thankyou.html"
-            />
-            <input type="hidden" name="_captcha" value="false" /> */}
           </form>
         </div>
         <div className="contact-details-section">

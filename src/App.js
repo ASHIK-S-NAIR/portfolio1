@@ -15,6 +15,7 @@ import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import FooterBottom from "./components/FooterBottom";
 import Contact from "./components/Contact";
+import Thankyou from "./components/Thankyou";
 
 function App() {
   return (
@@ -40,11 +41,17 @@ function App() {
           ></Route>
           <Route path="/contact" element={
             <section className="contact-container">
-             <Contact />
-             <FooterBottom /> 
+              <Contact />
+              <FooterBottom /> 
             </section>
             }
           ></Route>
+          <Route path="/thankyou" element={
+            <section className="thankyou-container">
+              <Thankyou />
+              <FooterBottom />
+            </section>
+          }></Route>
         </Routes>
       </div>
     </Router>

@@ -179,6 +179,10 @@ button{
     font-style: italic;
 }
 
+.hero-info-a{
+    width: 100%;
+}
+
 .cta-SMPP{
     width: 100%;
 }
@@ -1190,6 +1194,71 @@ button{
 }
 
 /* contact-container section ends */
+
+/* thankyou-container section starts */
+
+.thankyou-container{
+    /* min-height: 100vh; */
+}
+
+.thankyou-section{
+    /* padding: 7em 0 3em 0; */
+    /* height: 100vh; */
+    /* display: grid; */
+    /* place-items: center; */
+    /* border: 1px solid green; */
+}
+
+.thankyou-wrap{
+    /* border: 1px solid yellow; */
+    /* display: grid; */
+    /* place-items: center; */
+    /* border: 1px solid orange; */
+}
+
+.thankyou-heading{
+    /* font-size: 2.813rem;
+    line-height: 3.75rem; */
+    font-size: 2.188rem;
+    /* font-size: 4.375rem; */
+    line-height: 2.813rem;
+    /* font-family: var(--primary-font); */
+    /* margin-bottom: 0.8em; */
+    /* margin-bottom: 0.3em; */
+}
+
+.thankyou-heading span{
+    /* color: var(--main-color); */
+}
+
+.thankyou-subheading{
+    /* font-size: 1.875rem; */
+    font-size: 1.063rem;
+    /* line-height: clamp(1.344rem, 2.5vw, 22.188rem); */
+    /* font-family: var(--secondary-font); */
+    /* font-weight: 400; */
+    width: 80%;
+    /* margin: 0 auto; */
+    margin-bottom: 3em;
+    /* text-align: center; */
+}
+
+.thankyou-link{
+    width: 100%;
+    /* border: 1px solid green; */
+}
+
+.thankyou-btn{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+
+/* thankyou-container section ends */
 
 
 

@@ -40,7 +40,7 @@ function Hero() {
             I’am a freelance web developer <span> innovating professional</span>{" "}
             websites that convert visitors into <span>valuable customers</span>{" "}
           </h1>
-          <a href="/#projects-id">
+          <a href="/#projects-id" className="hero-info-a">
             <button className="hero-info-btn cta-interative cta-SMPP">
               <p>SEE MY PAST PROJECTS</p>
               <img src={Arrow} alt="" />
