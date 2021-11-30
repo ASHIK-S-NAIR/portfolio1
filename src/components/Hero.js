@@ -1,19 +1,33 @@
-import React,{useRef} from "react";
+import React, { useRef, useEffect } from "react";
 import Ashik from "../images/ashik.jpg";
 import Verified from "../images/Verified Freelancer.png";
 import Arrow from "../images/Arrow 1.svg";
 
 function Hero() {
-
   const VerifiedImg = useRef(null);
 
-  function scrollRotate(){
-    VerifiedImg.current.style.transform = "rotate(" + window.pageYOffset / 6 + "deg)";
+  function scrollRotate() {
+    VerifiedImg.current.style.transform =
+      "rotate(" + window.pageYOffset / 6 + "deg)";
   }
 
-  window.onscroll = function(){
-    scrollRotate();
-  }
+  useEffect(() => {
+    window.onscroll = () => {
+      scrollRotate();
+    };
+  }, []);
+
+  // window.onscroll = function () {
+  //   scrollRotate();
+  // };
+
+  // window.onscroll = () => {
+  //   VerifiedImg.current.style.transform = "rotate(" + window.pageYOffset / 6 + "deg)";
+  // }
+
+  // window.onscroll = () => {
+  //   scrollRotate();
+  // }
 
   return (
     <section className="hero-section">
@@ -26,14 +40,21 @@ function Hero() {
             I’am a freelance web developer <span> innovating professional</span>{" "}
             websites that convert visitors into <span>valuable customers</span>{" "}
           </h1>
-          <button className="hero-info-btn cta-interative cta-SMPP">
-            <p>SEE MY PAST PROJECTS</p>
-            <img src={Arrow} alt="" />
-          </button>
+          <a href="/#projects-id">
+            <button className="hero-info-btn cta-interative cta-SMPP">
+              <p>SEE MY PAST PROJECTS</p>
+              <img src={Arrow} alt="" />
+            </button>
+          </a>
         </div>
         <div className="hero-img-section">
           <img src={Ashik} alt="" className="hero-img" />
-          <img src={Verified} alt="" ref={VerifiedImg} className="hero-img-section-verified" />
+          <img
+            src={Verified}
+            alt=""
+            ref={VerifiedImg}
+            className="hero-img-section-verified"
+          />
         </div>
       </div>
     </section>

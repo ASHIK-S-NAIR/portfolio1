@@ -1,4 +1,5 @@
 import React,{useState} from "react";
+import { Link } from "react-router-dom";
 import Arrow from "../images/Arrow 1.svg";
 import FooterBottom from "./FooterBottom";
 
@@ -33,10 +34,12 @@ function Footer() {
             SHALL WE WORK <br /> <span>TOGETHER?</span>
           </h1>
           <div className="footer-cta-section">
-            <button className="footer-container-LT-btn cta-interative cta-LT">
-              <p>LET'S TALK</p>
-              <img src={Arrow} alt="" />
-            </button>
+            <Link to="/contact">
+              <button className="footer-container-LT-btn cta-interative cta-LT">
+                <p>LET'S TALK</p>
+                <img src={Arrow} alt="" />
+              </button>
+            </Link>
             <button
         
               className={`footer-container-email-btn cta-EMAIL ${activate ? "activate" : " "}`}

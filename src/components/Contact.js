@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import Arrow from '../images/Arrow 1.svg';
 
 function Contact() {
