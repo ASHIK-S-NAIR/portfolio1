@@ -989,10 +989,11 @@ button{
 
 .footer-bottom-social-icons{
     /* margin-bottom: 0.5em; */
+    /* border: 1px solid red; */
 }
 
 .footer-bottom-icon-img{
-    /* margin-left: 1.3em; */
+    margin-left: 0em;
     width: 1.5em;
 }
 
