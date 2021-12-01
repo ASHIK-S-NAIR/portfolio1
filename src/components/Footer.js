@@ -28,10 +28,10 @@ function Footer() {
       <div className="wrap footer-wrap">
         <div className="footer-container">
           <h3 className="footer-container-subheading">
-            Did you find your right guy?
+            Thinking about a Professional Website?
           </h3>
           <h1 className="footer-container-heading">
-            SHALL WE WORK <br /> <span>TOGETHER?</span>
+            LET'S WORK  <span>TOGETHER?</span>
           </h1>
           <div className="footer-cta-section">
             <Link to="/contact">
