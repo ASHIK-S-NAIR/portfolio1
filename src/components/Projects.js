@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { sliderData } from "../sliderData";
+import { sliderData } from "../data/sliderData";
 import ProjectSlide from "./ProjectSlide";
 import Chevron from "../images/Chevron Right.png";
 
@@ -30,9 +30,7 @@ function Projects() {
           {sliderData.map((slide, index) => {
             return (
               <div
-                className={
-                  index === current ? "slide active" : "slide"
-                }
+                className={index === current ? "slide active" : "slide"}
                 key={index}
               >
                 {index === current && (

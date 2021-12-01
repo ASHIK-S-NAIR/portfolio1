@@ -13,13 +13,25 @@ export default function FooterBottom() {
           <Link to="/contact" className="footer-bottom-icon" content="Email">
             <img src={Mail} alt="" className="footer-bottom-icon-img" />
           </Link>
-          <a href="https://www.linkedin.com/in/ashiksudhakaran/" className="footer-bottom-icon" content="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/ashiksudhakaran/"
+            className="footer-bottom-icon"
+            content="LinkedIn"
+          >
             <img src={LinkedIn} alt="" className="footer-bottom-icon-img" />
           </a>
-          <a href="https://github.com/ASHIK-S-NAIR" className="footer-bottom-icon" content="GitHub">
+          <a
+            href="https://github.com/ASHIK-S-NAIR"
+            className="footer-bottom-icon"
+            content="GitHub"
+          >
             <img src={GitHub} alt="" className="footer-bottom-icon-img" />
           </a>
-          <a href="https://dribbble.com/Ashik_S_Nair" className="footer-bottom-icon" content="Dribbble">
+          <a
+            href="https://dribbble.com/Ashik_S_Nair"
+            className="footer-bottom-icon"
+            content="Dribbble"
+          >
             <img src={Dribbble} alt="" className="footer-bottom-icon-img" />
           </a>
         </div>

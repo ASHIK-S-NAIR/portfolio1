@@ -20,7 +20,6 @@ function About() {
             Freelance Web Developer from India
           </h3>
           <p className="about-details-p">
-            {" "}
             <span>
               I help businesses, startups, and individuals set up their own
               space inside the <img src={Website} alt="" /> World Wide Web. I
@@ -30,16 +29,16 @@ function About() {
           </p>
           <p className="about-details-p">
             I am a <img src={Laptop} alt="" /> Computer Science Engineer,
-            graduated from Kerala Technical University, India. I started{" "}
+            graduated from Kerala Technical University, India. I started
             <span>developing websites</span> during my college days, then as a
             passion, and now it's my profession.
           </p>
           <p className="about-details-p">
-            Currently researching on different{" "}
+            Currently researching on different
             <span>User Interfaces and User Experience designs</span> .
           </p>
           <p className="about-details-p">
-            I am also an <img src={Airplane} alt="" /> aeronautics and{" "}
+            I am also an <img src={Airplane} alt="" /> aeronautics and
             <img src={Launch} alt="" /> space enthusiast, Love to enjoy my
             leisure time with my <img src={Cycling} alt="" /> friends and
             family.

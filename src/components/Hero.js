@@ -17,18 +17,6 @@ function Hero() {
     };
   }, []);
 
-  // window.onscroll = function () {
-  //   scrollRotate();
-  // };
-
-  // window.onscroll = () => {
-  //   VerifiedImg.current.style.transform = "rotate(" + window.pageYOffset / 6 + "deg)";
-  // }
-
-  // window.onscroll = () => {
-  //   scrollRotate();
-  // }
-
   return (
     <section className="hero-section">
       <div className="wrap hero-wrap">

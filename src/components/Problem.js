@@ -30,25 +30,20 @@ function Problem() {
             </p>
             <ul className="problem-details-ul">
               <li className="problem-details-li">
-            
                 <img src={Checked} alt="" /> Responsive
               </li>
               <li className="problem-details-li">
-                {" "}
                 <img src={Checked} alt="" /> Minimized loading time
               </li>
               <li className="problem-details-li">
-                {" "}
                 <img src={Checked} alt="" /> Good UI/UX
               </li>
               <li className="problem-details-li">
-                {" "}
                 <img src={Checked} alt="" /> Optimization
               </li>
             </ul>
           </div>
           <p className="problem-details-p">
-            {" "}
             <span>
               A professional-engaging website can help you form a good
               impression on your prospective customers.

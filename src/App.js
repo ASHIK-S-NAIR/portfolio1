@@ -39,19 +39,24 @@ function App() {
               </section>
             }
           ></Route>
-          <Route path="/contact" element={
-            <section className="contact-container">
-              <Contact />
-              <FooterBottom /> 
-            </section>
+          <Route
+            path="/contact"
+            element={
+              <section className="contact-container">
+                <Contact />
+                <FooterBottom />
+              </section>
             }
           ></Route>
-          <Route path="/thankyou" element={
-            <section className="thankyou-container">
-              <Thankyou />
-              <FooterBottom />
-            </section>
-          }></Route>
+          <Route
+            path="/thankyou"
+            element={
+              <section className="thankyou-container">
+                <Thankyou />
+                <FooterBottom />
+              </section>
+            }
+          ></Route>
         </Routes>
       </div>
     </Router>

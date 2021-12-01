@@ -1,33 +1,36 @@
-import React,{useState} from 'react';
-import {faqs} from '../data';
-import AccordionItem from './AccordionItem';
-
+import React, { useState } from "react";
+import { faqs } from "../data/FAQdata";
+import AccordionItem from "./AccordionItem";
 
 function Accordion() {
+  const [clicked, setClicked] = useState("0");
 
-    const [clicked, setClicked] = useState("0");
-
-    const handleToggle = (index) => {
-        if(clicked === index){
-            return setClicked("0");
-        }
-        setClicked(index);
+  const handleToggle = (index) => {
+    if (clicked === index) {
+      return setClicked("0");
     }
+    setClicked(index);
+  };
 
-    return (
-        <section id="faq-id" className="faq-section">
-            <div className="wrap">
-                <h1 className="faq-heading">FAQ'S</h1>
-                <ul className="faq-container">
-                    {
-                        faqs.map((faq, index) => {
-                            return <AccordionItem onToggle={ () => handleToggle(index)} active={clicked === index} key={index} faq={faq} />
-                        })
-                    }
-                </ul>
-            </div>
-        </section>
-    )
+  return (
+    <section id="faq-id" className="faq-section">
+      <div className="wrap">
+        <h1 className="faq-heading">FAQ'S</h1>
+        <ul className="faq-container">
+          {faqs.map((faq, index) => {
+            return (
+              <AccordionItem
+                onToggle={() => handleToggle(index)}
+                active={clicked === index}
+                key={index}
+                faq={faq}
+              />
+            );
+          })}
+        </ul>
+      </div>
+    </section>
+  );
 }
 
-export default Accordion
+export default Accordion;
