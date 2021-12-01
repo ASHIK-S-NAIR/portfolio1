@@ -59,7 +59,6 @@ function Problem() {
           </p>
           <Link to="/contact">
             <button className=" cta-interative cta-LT">
-              {" "}
               <p> LET'S TALK</p> <img src={Arrow} alt="" />
             </button>
           </Link>
