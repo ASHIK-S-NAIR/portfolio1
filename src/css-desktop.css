@@ -34,12 +34,12 @@ body::-webkit-scrollbar-track{
 body::-webkit-scrollbar-thumb{
     background-color: var(--primary-color);
     height: 10vw;
+    border-radius: 100vw;
     border: 2px solid var(--secondary-color);
 }
 
 body::-webkit-scrollbar-thumb:hover{
-    background-color: #333;
-    border-radius: 100vw;
+    background-color:  rgb(112, 112, 112);
 }
 
 *{
