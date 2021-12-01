@@ -569,9 +569,6 @@ button{
     background-color: var(--grey-color);
 }
 
-.process-section:hover + .cursor-dot{
-    background-color: var(--secondary-color);
-}
 
 .process-heading{
     font-family: var(--tertiary-font);

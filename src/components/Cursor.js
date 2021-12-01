@@ -18,10 +18,10 @@ function Cursor() {
     }, []);
 
     return (
-        <>
-            <div className="cursor-outline hovering" ref={cursorOutline} ></div>
+        <section className="cursor-section">
+            <div className="cursor-outline" ref={cursorOutline} ></div>
             <div className="cursor-dot" ref={cursorDot}></div>
-        </>
+        </section>
     )
 }
 

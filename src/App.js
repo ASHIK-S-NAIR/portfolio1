@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import "./css-desktop.css";
 import "./css-tablet.css";
@@ -12,7 +13,6 @@ import About from "./components/About";
 import FAQs from "./components/FAQs";
 import TIPS from "./components/TIPS";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import FooterBottom from "./components/FooterBottom";
 import Contact from "./components/Contact";
 import Thankyou from "./components/Thankyou";
@@ -27,7 +27,7 @@ function App() {
           <Route
             path="/"
             element={
-              <>
+              <section className="home-container">
                 <Hero />
                 <Problem />
                 <Process />
@@ -36,7 +36,7 @@ function App() {
                 <FAQs />
                 <TIPS />
                 <Footer />
-              </>
+              </section>
             }
           ></Route>
           <Route path="/contact" element={
