@@ -744,7 +744,6 @@ button{
 
 .projects-section{
     padding: 6em 0;
-    border:1px solid red;
 }
 
 .projects-heading{
@@ -755,8 +754,9 @@ button{
 
 .projects-container{
     /* width: 85%; */
-    height: 85vh;
-    margin: 0 auto;
+    /* height: 85vh; */
+    height: auto;
+    margin: 2em auto;
     display: flex;
     align-items: center;
     /* justify-content: space-around; */
@@ -1179,7 +1179,7 @@ button{
 
 .footer-section{
     padding: 6em 0;
-    height: 100vh;
+    height: min(100vh, 1000px);
     position: relative;
 }
 
