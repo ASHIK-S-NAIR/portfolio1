@@ -70,6 +70,10 @@
     row-gap: 1.3em;
   }
 
+  .navigation-li {
+    margin: 0.8em 0;
+  }
+
   .navigation-a span {
     font-size: 1.5rem;
   }
