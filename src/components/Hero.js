@@ -21,7 +21,7 @@ function Hero() {
     <section className="hero-section">
       <div className="wrap hero-wrap">
         <div className="hero-info-section">
-          <h3 className="hero-info-subheading">
+          <h3 className="hero-info-title">
             HELLO THERE, MY NAME IS <span>ASHIK</span>
           </h3>
           <h1 className="hero-info-heading">

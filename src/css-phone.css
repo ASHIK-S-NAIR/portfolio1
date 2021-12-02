@@ -1,6 +1,28 @@
 @media screen and (max-width: 500px) {
   /* general settings start */
 
+  :root {
+    /* font size */
+    --heading-fontSize: 1.563rem;
+    --title-fontSize: 0.8rem;
+    --subheading-fontSize: 1.063rem;
+    --p-fontSize: 0.938rem;
+    --outline-fontSize: 2.813rem;
+
+    /* line-height */
+    --heading-lineHeight: 2.063rem;
+    --subheading-lineHeight: 1.5rem;
+    --p-lineHeight: 1.6rem;
+
+    /* letterSpacing */
+    --title-letterSpacing: 0.1rem;
+
+    /* fontWeight */
+    --subheading-fontWeight: 400;
+    --p-fontWeight: 600;
+    --outline-fontWeight: 100;
+  }
+
   .wrap {
     width: 90%;
   }
@@ -80,21 +102,17 @@
     padding-top: 2em;
   }
 
-  .hero-info-subheading {
-    font-size: 0.8rem;
-    letter-spacing: 0.1rem;
+  .hero-info-title {
     margin-bottom: 1em;
   }
 
-  .hero-info-subheading span {
+  .hero-info-title span {
     font-weight: 800;
   }
 
   .hero-info-heading {
     text-align: center;
     width: 90%;
-    font-size: 1.563rem;
-    line-height: 2.063rem;
     margin-bottom: 1.5em;
   }
 
@@ -151,8 +169,6 @@
 
   .problem-info-heading {
     width: 100%;
-    font-size: 1.563rem;
-    line-height: 2.063rem;
     margin-bottom: 1em;
   }
 
@@ -160,18 +176,11 @@
     margin-bottom: 4em;
   }
 
-  .problem-info-quotes {
-    font-size: 1.063rem;
-    line-height: 1.5rem;
-  }
-
   .problem-info-author {
     font-size: 0.938rem;
   }
 
   .problem-details-p {
-    font-size: 0.938rem;
-    line-height: 1.6rem;
     margin-bottom: 3em;
   }
 
@@ -208,7 +217,6 @@
   }
 
   .process-heading {
-    font-size: 2.813rem;
     margin-bottom: 1em;
   }
 
@@ -260,7 +268,6 @@
   /* projects section starts */
 
   .projects-heading {
-    font-size: 2.813rem;
     margin-bottom: 1.5em;
   }
 
@@ -374,8 +381,6 @@
   }
 
   .about-details-title {
-    font-size: 0.8rem;
-    letter-spacing: 0.1rem;
     margin-bottom: 1em;
     width: 100%;
     text-align: center;
@@ -384,24 +389,16 @@
   .about-details-heading {
     width: 100%;
     text-align: center;
-    font-size: 1.563rem;
-    line-height: 2.063rem;
     margin-bottom: 0.8em;
   }
 
   .about-details-subheading {
-    font-size: 1.063rem;
-    line-height: 1.5rem;
     width: 100%;
     text-align: center;
     margin-bottom: 1.5em;
   }
 
   .about-details-p {
-    font-family: var(--secondary-font);
-    font-size: 0.938rem;
-    line-height: 1.6rem;
-    font-weight: 600;
     margin-bottom: 1em;
   }
 
@@ -467,15 +464,6 @@
     align-items: center;
   }
 
-  .tips-subheading {
-    font-size: 1.063rem;
-  }
-
-  .tips-heading {
-    font-size: 1.563rem;
-    line-height: 2.063rem;
-  }
-
   .tips-section .cta-GYFT {
     width: 100%;
   }
@@ -509,10 +497,6 @@
 
   .footer-container {
     width: 100%;
-  }
-
-  .footer-container-subheading {
-    font-size: 1.063rem;
   }
 
   .footer-container-heading {
@@ -592,7 +576,6 @@
   }
 
   .contact-form-input {
-    font-size: 0.938rem;
     padding: 1rem;
   }
 
@@ -602,7 +585,6 @@
 
   .contact-form-label {
     left: 1rem;
-    font-size: 0.938rem;
   }
 
   .contact-form-button {
@@ -624,18 +606,14 @@
   }
 
   .contact-details-title {
-    font-size: 0.8rem;
-    letter-spacing: 0.1rem;
     margin-bottom: 1em;
   }
 
   .contact-details-heading {
-    font-size: 1.563rem;
     margin-bottom: 0.1em;
   }
 
   .contact-details-subheading {
-    font-size: 1.063rem;
     margin-bottom: 0.8em;
   }
 
@@ -649,7 +627,6 @@
   }
 
   .thankyou-subheading {
-    font-size: 1.063rem;
     width: 80%;
     margin-bottom: 3em;
   }

@@ -17,6 +17,27 @@
   --primary-font: "Fahkwang", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --tertiary-font: "Bungee Outline", cursive;
+
+  /* font size */
+  --heading-fontSize: clamp(1.724rem, 4vw, 2.813rem);
+  --title-fontSize: 0.938rem;
+  --subheading-fontSize: clamp(0.959rem, 2.5vw, 1.563rem);
+  --p-fontSize: clamp(0.614rem, 2vw, 1rem);
+  --outline-fontSize: clamp(3.865rem, 8vw, 6.875rem);
+
+  /* line-height */
+  --heading-lineHeight: clamp(2.606rem, 5vw, 4.25rem);
+  --subheading-lineHeight: clamp(1.344rem, 2.5vw, 22.188rem);
+  --p-lineHeight: clamp(1.225rem, 3vw, 2rem);
+
+  /* letterSpacing */
+  --title-letterSpacing: 0.15rem;
+
+  /* fontWeight */
+  --subheading-fontWeight: 400;
+  --p-fontWeight: 600;
+  --outline-fontWeight: 100;
+
 }
 
 /* custom scroll-bar starts */
@@ -358,23 +379,22 @@ button {
   margin-right: 1em;
 }
 
-.hero-info-subheading {
-  font-size: 0.938rem;
+.hero-info-title {
+  font-size: var(--title-fontSize);
   font-family: var(--secondary-font);
   font-weight: 400;
-  letter-spacing: 0.15rem;
+  letter-spacing: var(--title-letterSpacing);
   margin-bottom: 1em;
 }
 
-.hero-info-subheading span {
+.hero-info-title span {
   font-weight: 900;
 }
 
 .hero-info-heading {
   font-family: var(--primary-font);
-  font-size: clamp(1.724rem, 4vw, 2.813rem);
-  line-height: 4.25rem;
-  line-height: clamp(2.606rem, 5vw, 4.25rem);
+  font-size: var(--heading-fontSize);
+  line-height: var(--heading-lineHeight);
   margin-bottom: 1.5em;
 }
 
@@ -424,9 +444,8 @@ button {
 .problem-info-heading {
   width: 90%;
   font-family: var(--primary-font);
-  font-size: clamp(1.724rem, 4vw, 2.813rem);
-  line-height: 4.25rem;
-  line-height: clamp(2.606rem, 5vw, 4.25rem);
+  font-size: var(--heading-fontSize);
+  line-height: var(--heading-lineHeight);
   margin-bottom: 1em;
 }
 
@@ -436,9 +455,9 @@ button {
 
 .problem-info-quotes {
   font-family: var(--secondary-font);
-  font-size: clamp(0.959rem, 2.5vw, 1.563rem);
-  line-height: clamp(1.344rem, 2.5vw, 22.188rem);
-  font-weight: 400;
+  font-size: var(--subheading-fontSize);
+  line-height: var(--subheading-lineHeight);
+  font-weight: var(--subheading-fontWeight);
   margin-bottom: 0.3em;
 }
 
@@ -450,9 +469,9 @@ button {
 
 .problem-details-p {
   font-family: var(--secondary-font);
-  font-size: clamp(0.614rem, 2vw, 1rem);
-  line-height: clamp(1.225rem, 3vw, 2rem);
-  font-weight: 600;
+  font-size: var(--p-fontSize);
+  line-height: var(--p-lineHeight);
+  font-weight: var(--p-fontWeight);
   margin-bottom: 2em;
 }
 
@@ -500,8 +519,8 @@ button {
 
 .process-heading {
   font-family: var(--tertiary-font);
-  font-size: clamp(3.865rem, 8vw, 6.875rem);
-  font-weight: 100;
+  font-size: var(--outline-fontSize);
+  font-weight: var(--outline-fontWeight);
   color: var(--pale-white-color);
 }
 
@@ -651,8 +670,8 @@ button {
 
 .projects-heading {
   font-family: var(--tertiary-font);
-  font-size: clamp(3.865rem, 8vw, 6.875rem);
-  font-weight: 100;
+  font-size: var(--outline-fontSize);
+  font-weight: var(--outline-fontWeight);
 }
 
 .projects-container {
@@ -803,32 +822,32 @@ button {
 }
 
 .about-details-title {
-  font-size: 0.938rem;
+  font-size: var(--title-fontSize);
   font-family: var(--secondary-font);
   font-weight: 600;
-  letter-spacing: 0.15rem;
+  letter-spacing: var(--title-letterSpacing);
   color: var(--main-color);
 }
 
 .about-details-heading {
   font-family: var(--primary-font);
-  font-size: clamp(1.724rem, 4vw, 2.813rem);
+  font-size: var(--heading-fontSize);
   margin-bottom: 0.7em;
 }
 
 .about-details-subheading {
   font-family: var(--secondary-font);
-  font-size: clamp(0.959rem, 2.5vw, 1.563rem);
-  line-height: clamp(1.344rem, 2.5vw, 22.188rem);
-  font-weight: 400;
+  font-size: var(--subheading-fontSize);
+  line-height: var(--subheading-lineHeight);
+  font-weight: var(--subheading-fontWeight);
   margin-bottom: 0.8em;
 }
 
 .about-details-p {
   font-family: var(--secondary-font);
-  font-size: clamp(0.614rem, 2vw, 1rem);
-  line-height: clamp(1.225rem, 3vw, 2rem);
-  font-weight: 600;
+  font-size: var(--p-fontSize);
+  line-height: var(--p-lineHeight);
+  font-weight: var(--p-fontWeight);
   margin-bottom: 1em;
 }
 
@@ -910,7 +929,7 @@ button {
   padding: 1em 3.5em 2.5em 3.5em;
   text-align: justify;
   font-family: var(--secondary-font);
-  font-size: clamp(0.614rem, 2vw, 1rem);
+  font-size: var(--p-fontSize);
   line-height: clamp(1.225rem, 3vw, 2.5rem);
   font-weight: 300;
 }
@@ -937,16 +956,17 @@ button {
 }
 
 .tips-subheading {
-  font-size: clamp(0.959rem, 2.5vw, 1.875rem);
+  font-size: var(--subheading-fontSize);
+  line-height: var(--subheading-lineHeight);
+  font-weight: var(--subheading-fontWeight);
   font-family: var(--secondary-font);
-  font-weight: 400;
   margin-bottom: 0.3em;
 }
 
 .tips-heading {
-  font-size: clamp(1.724rem, 4vw, 2.813rem);
-  line-height: clamp(2.5rem, 5vw, 3.75rem);
   font-family: var(--primary-font);
+  font-size: var(--heading-fontSize);
+  line-height: var(--heading-lineHeight);
   margin-bottom: 1em;
 }
 
@@ -1019,9 +1039,10 @@ button {
 }
 
 .footer-container-subheading {
-  font-size: clamp(0.959rem, 2.5vw, 1.875rem);
+  font-size: var(--subheading-fontSize);
+  line-height: var(--subheading-lineHeight);
+  font-weight: var(--subheading-fontWeight);
   font-family: var(--secondary-font);
-  font-weight: 400;
   margin-bottom: 0.3em;
 }
 
@@ -1200,7 +1221,7 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: clamp(0.614rem, 2vw, 1rem);
+  font-size: var(--p-fontSize);
   font-family: var(--secondary-font);
   border: none;
   border-bottom: 1px solid rgb(175, 173, 173);
@@ -1221,7 +1242,7 @@ button {
   padding: 0 0.25rem;
   background-color: var(--secondary-color);
   color: var(--grey-color);
-  font-size: clamp(0.614rem, 2vw, 1rem);
+  font-size: var(--p-fontSize);
   font-family: var(--secondary-font);
   transition: 0.3s;
 }
@@ -1252,24 +1273,25 @@ button {
 }
 
 .contact-details-title {
-  font-size: 0.938rem;
+  font-size: var(--title-fontSize);
   font-family: var(--secondary-font);
   font-weight: 600;
-  letter-spacing: 0.15rem;
+  letter-spacing: var(--title-letterSpacing);
   color: var(--main-color);
 }
 
 .contact-details-heading {
   font-family: var(--primary-font);
-  font-size: clamp(1.724rem, 4vw, 2.813rem);
+  font-size: var(--heading-fontSize);
+  line-height: var(--heading-lineHeight);
   margin-bottom: 0.1em;
 }
 
 .contact-details-subheading {
   font-family: var(--secondary-font);
-  font-size: clamp(0.959rem, 2.5vw, 1.563rem);
-  line-height: clamp(1.344rem, 2.5vw, 22.188rem);
-  font-weight: 400;
+  font-size: var(--subheading-fontSize);
+  line-height: var(--subheading-lineHeight);
+  font-weight: var(--subheading-fontWeight);
   margin-top: 1em;
   margin-bottom: 0.8em;
 }
@@ -1305,10 +1327,11 @@ button {
 }
 
 .thankyou-subheading {
-  font-size: clamp(0.959rem, 2.5vw, 1.875rem);
   font-family: var(--secondary-font);
-  font-weight: 400;
-  width: 50%;
+  font-size: var(--subheading-fontSize);
+  line-height: var(--subheading-lineHeight);
+  font-weight: var(--subheading-fontWeight);
+  width: 40%;
   margin: 0 auto;
   margin-bottom: 2em;
   text-align: center;
