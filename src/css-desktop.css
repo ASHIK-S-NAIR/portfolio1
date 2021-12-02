@@ -1010,7 +1010,6 @@ button {
 .tips-quotes-symbol.show p {
   transform: translateY(-2.5em);
   font-family: var(--secondary-font);
-  font-size: clamp(0.614rem, 2vw, 1.3rem);
   line-height: clamp(1.225rem, 3vw, 2.5rem);
   font-weight: 600;
 }
