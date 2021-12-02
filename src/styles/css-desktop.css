@@ -574,15 +574,15 @@ button {
 }
 
 #process-plan {
-  background-image: url("../src/images/penandpaper.jpg");
+  background-image: url("../images/penandpaper.jpg");
 }
 
 #process-design {
-  background-image: url("../src/images/figma.JPG");
+  background-image: url("../images/figma.JPG");
 }
 
 #process-build {
-  background-image: url("../src/images/vscode.JPG");
+  background-image: url("../images/vscode.JPG");
 }
 
 .process-ul {

@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import "./css-desktop.css";
-import "./css-tablet.css";
-import "./css-phone.css";
+import "./styles/css-desktop.css";
+import "./styles/css-tablet.css";
+import "./styles/css-phone.css";
 import Cursor from "./components/Cursor";
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
