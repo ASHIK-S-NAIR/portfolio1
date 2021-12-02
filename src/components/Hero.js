@@ -24,7 +24,7 @@ function Hero() {
           <h3 className="hero-info-title">
             HELLO THERE, MY NAME IS <span>ASHIK</span>
           </h3>
-          <h1 className="hero-info-heading" style= {{backgroundColor: "#ee3547"}}>
+          <h1 className="hero-info-heading">
             I’am a freelance web developer <span> innovating professional</span>{" "}
             websites that convert visitors into <span>valuable customers</span>{" "}
           </h1>
