@@ -5,7 +5,7 @@ import Arrow from "../images/Arrow 1.svg";
 function TIPS() {
   const [tipIndex, settipIndex] = useState(null);
   const generateTip = () => {
-    var x = Math.floor(Math.random() * (6 - 0 + 0) + 0);
+    var x = Math.floor(Math.random() * (tips.length - 0 + 0) + 0);
 
     if (x === tipIndex) {
       generateTip();

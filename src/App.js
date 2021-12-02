@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
 import "./styles/css-desktop.css";
 import "./styles/css-tablet.css";
 import "./styles/css-phone.css";
