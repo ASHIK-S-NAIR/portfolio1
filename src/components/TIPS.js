@@ -10,7 +10,7 @@ function TIPS() {
     if (x === tipIndex) {
       generateTip();
     } else {
-      return console.log(x), settipIndex(x);
+      return settipIndex(x);
     }
   };
 
