@@ -15,6 +15,8 @@ export default function FooterBottom() {
           </Link>
           <a
             href="https://www.linkedin.com/in/ashiksudhakaran/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="footer-bottom-icon"
             content="LinkedIn"
           >
@@ -22,6 +24,8 @@ export default function FooterBottom() {
           </a>
           <a
             href="https://github.com/ASHIK-S-NAIR"
+            target="_blank"
+            rel="noopener noreferrer"
             className="footer-bottom-icon"
             content="GitHub"
           >
@@ -29,6 +33,8 @@ export default function FooterBottom() {
           </a>
           <a
             href="https://dribbble.com/Ashik_S_Nair"
+            target="_blank"
+            rel="noopener noreferrer"
             className="footer-bottom-icon"
             content="Dribbble"
           >

@@ -41,6 +41,7 @@ function Projects() {
                     image={slide.image}
                     tech={slide.tech}
                     gitLink={slide.gitLink}
+                    projectLink={slide.projectLink}
                   />
                 )}
               </div>

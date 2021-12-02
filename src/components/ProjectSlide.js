@@ -1,6 +1,13 @@
 import React from "react";
 
-function ProjectSlide({ heading, description, tech, image, gitLink }) {
+function ProjectSlide({
+  heading,
+  description,
+  tech,
+  image,
+  gitLink,
+  projectLink,
+}) {
   return (
     <div className="project-slide">
       <div className="project-left-slide">
@@ -8,8 +15,10 @@ function ProjectSlide({ heading, description, tech, image, gitLink }) {
         <p className="project-left-p">{description}</p>
         <p className="projects-left-tech">{tech}</p>
         <div className="project-cta-section">
-          <button className="cta-VS">VISIT SITE</button>
-          <a href={gitLink}>
+          <a href={projectLink} target="_blank" rel="noopener noreferrer">
+            <button className="cta-VS">VISIT SITE</button>
+          </a>
+          <a href={gitLink} target="_blank" rel="noopener noreferrer">
             <button className="cta-GL">GitHubLink</button>
           </a>
         </div>

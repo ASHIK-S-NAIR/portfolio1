@@ -7,6 +7,7 @@ export const sliderData = [
     image: require("../images/vinca.jpg").default,
     gitLink:
       "https://github.com/ASHIK-S-NAIR/Vinca---Work-Risk-Free-Consultancy",
+    projectLink: "https://vincaconsultancy.netlify.app",
   },
   {
     heading: "Home For Sale",
@@ -15,6 +16,7 @@ export const sliderData = [
     tech: "HTML | CSS | JAVASCRIPT",
     image: require("../images/homeForSale.jpg").default,
     gitLink: "https://github.com/ASHIK-S-NAIR/homeforsale",
+    projectLink: "https://homeforsaleagency.netlify.app",
   },
   {
     heading: "EC Cure",
@@ -23,5 +25,6 @@ export const sliderData = [
     tech: "HTML | CSS | JAVASCRIPT | AOS.JS",
     image: require("../images/eccure.jpg").default,
     gitLink: "https://github.com/ASHIK-S-NAIR/EcCure",
+    projectLink: "https://eccure.netlify.app",
   },
 ];
