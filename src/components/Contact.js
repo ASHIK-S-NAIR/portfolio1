@@ -8,7 +8,7 @@ function Contact() {
         <div className="contact-form-section">
           <form
             className="contact-form"
-            action="https://formsubmit.co/ashik@ashiksudhakaran.com"
+            action="3fa980db084a69203410a446577bf885"
             method="POST"
           >
             <div className="contact-form-row">
