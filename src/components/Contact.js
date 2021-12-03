@@ -8,7 +8,7 @@ function Contact() {
         <div className="contact-form-section">
           <form
             className="contact-form"
-            action="https://formsubmit.co/aashiq5342@gmail.com"
+            action="https://formsubmit.co/ashik@ashiksudhakaran.com"
             method="POST"
           >
             <div className="contact-form-row">
@@ -62,8 +62,11 @@ function Contact() {
             <input
               type="hidden"
               name="_next"
-              value="http://kanakavalli.atwebpages.com/thankyou"
+              value="https://ashiksudhakaran.com/thankyou"
             />
+
+            <input type="hidden" name="_cc" value="aashiq5342@gmail.com" />
+
             <input type="hidden" name="_captcha" value="false" />
 
             <div className="contact-form-row">
