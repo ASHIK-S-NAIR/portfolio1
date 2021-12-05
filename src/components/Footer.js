@@ -44,7 +44,7 @@ function Footer() {
               }`}
               onClick={CopyToClipboard}
             >
-              aashiq5342@gmail.com
+              ashik@ashiksudhakaran.com
             </button>
           </div>
         </div>
